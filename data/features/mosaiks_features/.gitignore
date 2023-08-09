@@ -1,0 +1,7 @@
+*
+*/
+!.gitignore
+!GDL_ADM0_polygon_X_creation_pop_weight=True.p
+!GDL_ADM1_polygon_X_creation_pop_weight=True.p
+!ADM_2_regions_RCF_global_dense_aggregated_to_ADM0_pop_weight=True.p
+!ADM_2_regions_RCF_global_dense_aggregated_to_ADM1_pop_weight=True.p
