@@ -12,7 +12,7 @@ noise, systematic bias, compressed variance and other errors.
 
 
 GitHub github.com/Global-Policy-Lab/hdi_downscaling_mosaiks/
-Email: lsherman@berkeley.edu
+Email: lsherm@stanford.edu
 
 
 
