@@ -1,7 +1,7 @@
 # HDI Downscaling
 Replication code for ["Global High-Resolution Estimates of the United Nations Human Development Index Using Satellite Imagery and Machine Learning"](https://www.nber.org/papers/w31044) which is currently available as an NBER Working Paper.
 
-Contact Luke Sherman via lsherman@berkeley.edu with questions.
+Contact Luke Sherman via lsherm@stanford.edu with questions.
 
 ### Note on replication
 Full replication of this research effort requires a large number of external data sources and considerable computing effort. Even for basic replication, it will be necessary for users to download a number of these external data products and manually add them to the user's data directory. In the replication instructions below, we will be as detailed as possible about how to do this. 
