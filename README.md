@@ -37,7 +37,7 @@ Users aiming to replicate this research will likely need a basic familiarity wit
 
 
 ### MOSAIKS Features
-4. MOSAIKS features at ADM1 and ADM0 (model training) are included in the repo. MOSAIKS features for ADM2 polygons must be downloaded directly at [api.mosaiks.org/portal/precomputed](https://api.mosaiks.org/portal/precomputed/). To replicate this analysis, download the ADM2 population weighted python/pickle file and add it to the `/data/features/mosaiks_features/` directory. Note that these aggregated MOSAIKS features can also be used to predict a variety of other tasks at the ADM level of observation.
+4. MOSAIKS features at ADM1 and ADM0 (model training) are included in the repo. MOSAIKS features for ADM2 polygons must be downloaded directly at [mosaiks.org](https://mosaiks.org/precomputed/). Files listed on this site are in CSV format. To replicate this analysis directly, download this [ADM2 population weighted python/pickle file](https://redivis.com/api/v1/rawFiles/vetx-8gzj1dq4a.HE7Hg7SHGP4SytfUzu7OxA?version=next) and add it to the `/data/features/mosaiks_features/` directory. Note that these aggregated MOSAIKS features can also be used to predict a variety of other tasks at the ADM level of observation.
 
 ### Shapefiles.
 5. Download ADM2 shapefile  from [geoBoundaries (CGAZ 3.0.0)](https://www.geoboundaries.org/data/geoBoundariesCGAZ-3_0_0/ADM2/simplifyRatio_100/geoBoundariesCGAZ_ADM2.geojson). This file should now be named `data/raw/geoBoundaries/geoBoundariesCGAZ_ADM2.geojson`. 
