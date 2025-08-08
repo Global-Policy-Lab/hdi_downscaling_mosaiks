@@ -42,7 +42,8 @@ if c.GPU:
 else:
     from scipy import linalg
 
-    linalg_solve_kwargs = {"sym_pos": True}
+    #linalg_solve_kwargs = {"sym_pos": True}
+    linalg_solve_kwargs = {"assume_a" : "pos"}
     xp = np
     asnumpy = np.asarray
 
@@ -123,7 +124,7 @@ def ridge_regression(
 
     # center data if needed
     X_train, y_train, X_offset, y_offset, _ = _preprocess_data(
-        X_train, y_train, intercept, normalize=False
+        X_train, y_train, fit_intercept=intercept, #normalize=False
     )
 
     # set up the data structures for reporting results
@@ -1758,7 +1759,8 @@ regularization added to the logisitic (step 1) regression.
 def custom_ridge(X,y, lam, intercept=True):
 
     X, y, X_offset, y_offset, _ = _preprocess_data(
-    X, y, intercept, normalize=False)
+    X, y, fit_intercept=intercept, #normalize=False
+    )
 
     XtX = X.T.dot(X)
     Xty = X.T.dot(y)
