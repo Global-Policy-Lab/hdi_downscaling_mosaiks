@@ -1,5 +1,5 @@
 # HDI Downscaling
-Replication code for ["Global High-Resolution Estimates of the United Nations Human Development Index Using Satellite Imagery and Machine Learning"]([https://www.nber.org/papers/w31044](https://doi.org/10.1038/s41467-026-68805-6)) which is available as Open Access at Nature Communications.
+Replication code for ["Global High-Resolution Estimates of the United Nations Human Development Index Using Satellite Imagery and Machine Learning"](https://doi.org/10.1038/s41467-026-68805-6) which is available as Open Access at Nature Communications.
 
 Contact Luke Sherman via lsherm@stanford.edu with questions.
 
